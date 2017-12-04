@@ -7,3 +7,11 @@
  Paso   Acción                       Notas
 ====== ============================ ================================
 (25)   Se haría de manera recursiva
+(27)   tag RespuestaPreguntaFusion
+(28)   pull                         Para arreglar errores de sincronía.
+(28)   push
+(28)   checkout Historia000         Subo también cambios de las otras
+                                    ramas.
+(28)   push -u origin Historia000
+(28)   checkout Historia001
+(28)   push -u origin Historia001

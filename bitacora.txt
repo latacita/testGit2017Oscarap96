@@ -9,3 +9,8 @@
 (03)   branch Historia000
 (04)   branch Historia001
 (05)   checkout Historia000
+(11)   stash                        Hago un stash antes de cambiar de
+                                    rama debido a que no se ha hecho
+                                    un commit y no se quiere perder
+                                    los cambios realizados.
+(11)   checkout Historia000

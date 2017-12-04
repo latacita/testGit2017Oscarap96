@@ -1,12 +1,30 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Alario Pelaz, Óscar):                                    %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(03)   branch Historia000
+(04)   branch Historia001
+(05)   checkout Historia000
 (07)   add bitacora.txt
 (08)   commit "Paso 08"
 (09)   checkout Historia001
+(11)   stash                        Hago un stash antes de cambiar de
+                                    rama debido a que no se ha hecho
+                                    un commit y no se quiere perder
+                                    los cambios realizados.
+(11)   checkout Historia000
 (16)   stash apply
+(20)   checkout Historia001         Este cambio se realizó en el paso
+                                    15 pero lo indicó aquí debido a
+                                    que no se especifica antes y a que
+                                    es necesario para reaizar la fusión.
+(20)   merge Historia000            Se han resuelto los conflictos
+                                    surgidos al fusionar las ramas
+                                    en este fichero dejando los
+                                    cambios realizados por ambas
+                                    ramas y reordenando los pasos.
+                                    La fusión ha sido fast-forward.

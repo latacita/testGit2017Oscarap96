@@ -6,7 +6,6 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
-(25)   Se haría de manera recursiva
 (03)   branch Historia000
 (04)   branch Historia001
 (05)   checkout Historia000
@@ -29,6 +28,7 @@
                                     cambios realizados por ambas
                                     ramas y reordenando los pasos.
                                     La fusión ha sido fast-forward.
+(25)   Se haría de manera recursiva
 (27)   tag RespuestaPreguntaFusion
 (28)   pull                         Para arreglar errores de sincronía.
 (28)   push
